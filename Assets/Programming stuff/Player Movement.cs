@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             geradeaus();
-            transform.Translate(Vector3.forward*2.9);
         }
         else if (Input.GetKey(KeyCode.A))
         {
